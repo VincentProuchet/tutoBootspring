@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>	<!-- En-tête de la page -->
+		<meta charset="utf-8" />	<!-- Cette balise indique l'encodage utilisé dans votre fichier .html ici utf-8 -->
+		<title>Exemple d'utilisation de Bootstrap</title> <!-- Ce titre s'affiche dans l'onglet du navigateur -->
+	</head>
+	<body style="margin: auto; padding:15px; background-color: LightGrey;"> 	<!-- Corps de la page -->
+
+		<!-- HEADER Titre de la page -->
+		<h1>Exemple d'utilisation de Bootstrap</h1>
+
+		<!-- MENU PRINCIPAL -->
+		<div style="padding:15px;"><a href="#">Accueil</a> - <a href="#">Cours HTML</a> - <a href="#">Cours CSS</a> - <a href="#">Cours PHP</a> - <a href="#">Cours Javascript</a></div>
+
+		<!-- ZONE PRINCIPALE -->
+		<div style="display:inline-block; max-width:800px; background-color:white; padding:15px;">	
+			<h2>introduction</h2>
+			<p>Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur ... etc. ...) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub (wikipedia).</p>
+			<p>Site officiel : <a href="https://getbootstrap.com/">https://getbootstrap.com</a></p>
+			<p>Logo : <img style="max-width:150px;" src="./images/bootstrap-logo.jpg" alt="Logo de Bootstrap"/></p>
+			<h2>Exemples de sites réalisés avec Bootstrap</h2>
+			<p>
+				<img style="max-width:600px; display:block; margin-left:auto; margin-right:auto;" src="./images/album.png" alt="Exemple de site réalisé avec Bootstrap style album"/>
+				<img style="max-width:600px; display:block; margin-left: auto; margin-right: auto;"  src="./images/carousel.jpg" alt="Exemple de site réalisé avec Bootstrap avec caroussel"/>
+				<img style="max-width:600px; display:block; margin-left: auto; margin-right: auto;"  src="./images/form.jpg" alt="Exemple de site réalisé avec Bootstrap avec formulaire"/>
+				<img style="max-width:600px; display:block; margin-left: auto; margin-right: auto;"  src="./images/pricing.png" alt="Exemple de site réalisé avec Bootstrap style commercial"/>
+				<img style="max-width:600px; display:block; margin-left: auto; margin-right: auto;"  src="./images/monitor.jpg" alt="Exemple de site réalisé avec Bootstrap style monitoring"/>
+			</p>
+		</div>
+		
+		<div style="display:inline-block; max-width:360px; vertical-align:top; padding:15px;">
+			<div>
+				<form method="post" action="#">
+					<label for="recherche">Rechercher : </label><input type="text" name="recherche" id="recherche" />
+					<input type="submit" name="btrechercher" value="Rechercher">
+				</form>
+			</div>
+			<div>
+				<p>Laisser un commentaire :</p>
+				<form method="post" action="#">
+					<label for="pseudo">Pseudo : </label><input type="text" name="pseudo" id="pseudo" />
+					<br/>
+					<label for="message">Message : </label>
+					<textarea name="memo" rows="5" cols="30">Tapez votre message ici</textarea>
+					<input type="submit" name="btEnvoyer" value="Envoyer">
+				</form>
+			</div>
+			<div>
+				<p>Très bon tuto, parfait, comme toujours sur ce site Internet au design futuriste. G. MENVU</p>
+				<p>Site très instructif, c'est devenu pour moi une référence en matière de développement Web. Le design est génial. H. CHISMAN</p>
+			</div>
+		</div>
+		<div style="min-height:70px; padding:15px;">&copy; 2018 - Ne pas prendre exemple !</div>
+	</body>
+</html>
