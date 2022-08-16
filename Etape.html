@@ -5,7 +5,7 @@
 	<!-- En-tête de la page -->
 	<meta charset="utf-8" /> <!-- Cette balise indique l'encodage utilisé dans votre fichier .html ici utf-8 -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="css/style.css">
 	<title>Exemple d'utilisation de Bootstrap</title> <!-- Ce titre s'affiche dans l'onglet du navigateur -->
 </head>
 
@@ -74,17 +74,17 @@
 						<li data-target="#idCarousel" data-slide-to="0" class="active">
 
 						</li>
-						<li data-target="#idCarousel" data-slide-to="1" class="active">
+						<li data-target="#idCarousel" data-slide-to="1">
 
 						</li>
-						<li data-target="#idCarousel" data-slide-to="2" class="active">
+						<li data-target="#idCarousel" data-slide-to="2">
 
 						</li>
-						<li data-target="#idCarousel" data-slide-to="3" class="active">
+						<li data-target="#idCarousel" data-slide-to="3">
 
 						</li>
 
-						<li data-target="#idCarousel" data-slide-to="4" class="active">
+						<li data-target="#idCarousel" data-slide-to="4">
 
 						</li>
 
@@ -97,25 +97,27 @@
 								alt="Exemple de site réalisé avec Bootstrap style album" />
 						</div>
 						<div class="carousel-item ">
-							<img src="./images/carousel.jpg"
+							<img class="mx-auto d-block img-fluid" src="./images/carousel.jpg"
 								alt="Exemple de site réalisé avec Bootstrap avec caroussel" />
 						</div>
 						<div class="carousel-item ">
-							<img src="./images/form.jpg" alt="Exemple de site réalisé avec Bootstrap avec formulaire" />
+							<img class="mx-auto d-block img-fluid" src="./images/form.jpg"
+								alt="Exemple de site réalisé avec Bootstrap avec formulaire" />
 						</div>
 						<div class="carousel-item ">
-							<img src="./images/pricing.png"
+							<img class="mx-auto d-block img-fluid" src="./images/pricing.png"
 								alt="Exemple de site réalisé avec Bootstrap style commercial" />
 						</div>
 						<div class="carousel-item ">
-							<img src="./images/monitor.jpg"
+							<img class="mx-auto d-block img-fluid" src="./images/monitor.jpg"
 								alt="Exemple de site réalisé avec Bootstrap style monitoring" />
 						</div>
+
+						<a class="carousel-control-prev " href="#idCarousel" data-slide="prev"><span
+								class="carousel-control-prev-icon"></span> </a>
+						<a class="carousel-control-next " href="#idCarousel" data-slide="next"><span
+								class="carousel-control-next-icon"></span> </a>
 					</div>
-					<a class="carousel-control-prev" href="#idCarousel" data-slide="prev"><span
-							class="carousel-control-prev-icon"></span> </a>
-					<a class="carousel-control-next" href="#idCarousel" data-slide="next"><span
-							class="carousel-control-next-icon"></span> </a>
 				</div>
 
 			</div>
